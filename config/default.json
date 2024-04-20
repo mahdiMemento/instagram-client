@@ -1,0 +1,10 @@
+{
+    "name": "instagram_client_project",
+    "db":{
+    "address" : "mongodb://localhost:27017/instagram_client_project"
+    },
+    "jwt_key" : "abzvce773263b6m69g&H%BBGHvyr64unl;s.dnd-8ddbgkJGUGY",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjIxMGE5Y2VkYmQzMzQ0MDc0NGJlNDQiLCJpYXQiOjE3MTM0NDIyMTF9.qujrH7mF58yl67Cunk-nk382eziPi1i05ps1ZaCF3y8"
+
+
+}
