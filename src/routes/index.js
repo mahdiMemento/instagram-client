@@ -8,7 +8,7 @@ const error = require('./../middlewares/error');
 const {isLogined , isAdmin} = require('./../middlewares/auth');
 
 router.use('/auth' , authRouter);
-router.use('/user' , isLogined , userRouter);
+router.use('/user' , userRouter);
 //isLogined
 router.use(error);
 

@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const timestamp = require('mongoose-timestamp');
 const User = require('./user');
-const Relation = require('./relation');
 
 
 const postSchema = new mongoose.Schema({
