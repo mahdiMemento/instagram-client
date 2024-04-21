@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 const config = require('config');
-const debug = require('debug');
+const debug = require('debug')("app:main");
 const mongoose = require('mongoose');
 const { urlencoded } = require('body-parser');
 const swaggerSpec = require('./swagger');
@@ -14,8 +14,8 @@ const {User} = require('./src/models/user');
 
 
 mongoose.connect(config.get('db.address'))
-.then(()=> { console.log('mongodb connected')})
-.catch((err) => { console.log(err)});
+.then(()=> { debug('mongodb connected')})
+.catch((err) => { debug(err)});
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
