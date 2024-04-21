@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # instagram-client
 
 ## Description
@@ -16,3 +17,6 @@ To use this API, follow these steps:
 4. To view the API documentation, navigate to `http://localhost:3000/api-docs/` in your browser.
 ## Usage
 Refer to the API documentation for detailed instructions on how to use each endpoint.
+=======
+# instagram-client
+>>>>>>> a5a3ee814c91746f69e3c7bb47f92a0d44b33bbb
