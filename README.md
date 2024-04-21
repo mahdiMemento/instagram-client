@@ -12,9 +12,10 @@ This project is an API developed using Express.js that functions similarly to th
 ## Installation and Setup
 To use this API, follow these steps:
 1. Clone the repository.
-2. Install dependencies by running `npm install`.
-3. Start the server with `npm start`.
-4. To view the API documentation, navigate to `http://localhost:3000/api-docs/` in your browser.
+2. Switch to the "test" branch by running `git switch test`.
+3. Install dependencies by running `npm install`.
+4. Start the server with `npm start`.
+5. To view the API documentation, navigate to `http://localhost:3000/api-docs/` in your browser.
 ## Usage
 Refer to the API documentation for detailed instructions on how to use each endpoint.
 =======
